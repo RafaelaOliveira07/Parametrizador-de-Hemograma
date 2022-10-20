@@ -1,0 +1,46 @@
+nome = input ('Qual é o seu nome? ')
+idade = input ('Quantos anos você tem? ')
+print('Vamos começar com a leitura do seu hemograma. Começaremos pela série vermelha. É um processo simples, porém não deve-se dispensar a consulta a um profissional de saúde especializado para descartar quaisquer outras situações de saude que possam prejudicar o usuário desse projeto.')
+
+eritrocitos = float (input ('Insira o valor de resultado de Eritrócitos: '))
+if eritrocitos >= 3.60 and eritrocitos < 5.00:
+    print('O valor de eritócitos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+hemoglobina = float (input ('Insira o valor de resultado de Hemoglobina: '))
+if hemoglobina >= 11.5 and hemoglobina < 15.0:
+    print('O valor de hemoglobina está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento') 
+
+hematocrito = float (input ('Insira o valor de resultado de Hematocritos: '))
+if hematocrito >= 34.5 and hematocrito < 45.0:
+    print('O valor de hematocrito está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')  
+
+vcm = float (input ('Insira o valor de resultado de VCM (Volume Corpuscular Médio): '))
+if vcm >= 80.0 and vcm < 99.9:
+    print('O valor de VCM (Volume Corpuscular Médio) está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')  
+
+hcm = float (input ('Insira o valor de resultado de HCM (Hemoglobina Corpuscular Média): '))
+if hcm >= 23.8 and hcm < 33.4:
+    print('O valor de HCM (Hemoglobina Corpuscular Média) está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+chcm = float (input ('Insira o valor de resultado de CHCM (Concentração da Hemoglobina Corpuscular Média): '))
+if chcm >= 31.4 and chcm < 36.0:
+    print('O valor de CHCM (Concentração da Hemoglobina Corpuscular Média) está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+rdw = float (input ('Insira o valor de resultado de RDW (Tamanho Médio de Célula Vermelha): '))
+if rdw >= 12.0 and rdw < 15.4:
+    print('O valor de RDW (Concentração da Hemoglobina Corpuscular Média) está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+print('Os valores de referência podem mudar de acordo com os laboratórios, sendo necessária a avaliação do médico responsável pela solicitação deste e dos demais exames.')
