@@ -1,0 +1,43 @@
+print('Vamos começar agora o bloco da série branca do hemograma.\n Lembrando que a verificação dos valores por esse app, não dispensa a consulta com um profissional da área da saúde')
+
+leucocitos = float (input ('Insira o valor de resultado de leucócitos: '))
+if leucocitos >= 3.600 and leucocitos < 12.000:
+    print('O valor de Leucócitos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+bastonetes = float (input ('Insira o valor de resultado de Bastonetes em porcentagem: '))
+if bastonetes >= 0.0 and bastonetes < 5.0: 
+    print('O valor de Bastonetes está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+segmentados = float (input ('Insira o valor de resultado de Segmentados em porcentagem: '))
+if segmentados >= 40.0 and segmentados < 75.0: 
+    print('O valor de Segmentados está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+eosinofilos = float (input ('Insira o valor de resultado de Eosinófilos em porcentagem: '))
+if eosinofilos >= 1.0 and eosinofilos < 5.0: 
+    print('O valor de Eosinófilos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')
+
+basofilos = float (input ('Insira o valor de resultado de Basófilos em porcentagem: '))
+if basofilos >= 0.0 and basofilos < 2.0: 
+    print('O valor de Basófilos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')    
+
+linfocitos = float (input ('Insira o valor de resultado de Linfócitos em porcentagem: '))
+if linfocitos >= 20.0 and linfocitos < 45.0: 
+    print('O valor de Linfócitos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')   
+
+monocitos = float (input ('Insira o valor de resultado de Monócitos em porcentagem: '))
+if monocitos >= 1.0 and monocitos < 12.0: 
+    print('O valor de Monócitos está normal, de acordo com as referencias médicas até hoje')
+else: 
+    print('O valor informado não está dentro dos parametros normais identificados até o momento')   
