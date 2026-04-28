@@ -1,6 +1,6 @@
 nome = input ('Qual é o seu nome? ')
 idade = input ('Quantos anos você tem? ')
-print('\nVamos começar com a leitura do seu hemograma. Começaremos pela série vermelha. \nÉ um processo simples, porém não deve-se dispensar a consulta a um profissional de saúde especializado para descartar quaisquer outras sit
+print('\nVamos começar com a leitura do seu hemograma. Começaremos pela série vermelha. \nÉ um processo simples, porém não deve-se dispensar a consulta a um profissional de saúde especializado para descartar quaisquer outras situações')
 
 eritrocitos = float (input ('\nInsira o valor de resultado de Eritrócitos: '))
 if eritrocitos >= 3.60 and eritrocitos < 5.00:
